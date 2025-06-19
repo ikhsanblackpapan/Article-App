@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Article Management App
 
-## Getting Started
+Selamat datang di **Article Management App**!  
+Aplikasi manajemen artikel modern berbasis Next.js, siap membantu User & Admin mengelola konten dengan mudah, cepat, dan penuh gaya.  
+Dibangun dengan teknologi kekinian, UI responsif, dan pengalaman pengguna yang menyenangkan.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Fitur Unggulan
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔐 **Authentication & Authorization**
+- **Login & Register** dengan validasi form (Zod + React Hook Form)
+- **Role-based Access:** User & Admin punya akses fitur berbeda
+- **Logout** cepat, redirect otomatis
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📰 **User Features**
+- **List Artikel:**  
+  - Filter kategori  
+  - Search dengan debounce  
+  - Pagination otomatis
+- **Detail Artikel:**  
+  - Konten lengkap  
+  - Rekomendasi artikel sejenis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ **Admin Features**
+- **Kelola Kategori:**  
+  - CRUD kategori  
+  - Search & pagination
+- **Kelola Artikel:**  
+  - CRUD artikel  
+  - Preview sebelum submit  
+  - Filter, search, pagination
 
-## Learn More
+### 🎨 **UI/UX**
+- **Responsif** di HP, tablet, desktop
+- **Notifikasi interaktif:** Toast sukses, error, loading animasi
+- **Dark mode ready** (opsional, tinggal aktifkan!)
 
-To learn more about Next.js, take a look at the following resources:
+### ⚡ **Teknologi**
+- [Next.js App Router](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
+- [Axios](https://axios-http.com/) (API)
+- [Lucide Icons](https://lucide.dev/)
+- [Zod](https://zod.dev/) + [React Hook Form](https://react-hook-form.com/)
+- **GitHub** (Git flow)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚦 Cara Menjalankan Lokal
 
-## Deploy on Vercel
+1. **Clone repo:**
+   ```bash
+   git clone https://github.com/ikhsanblackpapan/Article-App.git
+   cd Article-App
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Jalankan development:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Buka di browser:**  
+   [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 Deploy
+
+Aplikasi ini sudah siap deploy ke [Vercel](https://vercel.com/) atau [Netlify](https://netlify.com/).  
+Cukup connect repo GitHub, klik deploy, dan aplikasi siap online!
+
+---
+
+## 🧪 Backup Data Dummy
+
+Jika API utama down, aplikasi otomatis fallback ke data dummy lokal.  
+Kamu tetap bisa presentasi tanpa takut server error!
+
+---
+
+## 💡 Tips Presentasi
+
+- Login sebagai **User** untuk fitur baca artikel.
+- Login sebagai **Admin** untuk fitur kelola artikel & kategori.
+- Coba search, filter, pagination, dan preview artikel.
+- Perhatikan notifikasi interaktif di pojok kanan atas!
+
+---
+
+## 🤝 Kontribusi
+
+Punya ide atau ingin improve?  
+Pull request & feedback sangat diterima!
+
+---
+
+## 📞 Kontak
+
+Dibuat dengan ❤️ oleh [ikhsanblackpapan](https://github.com/ikhsanblackpapan)  
+Untuk pertanyaan, silakan DM atau buat issue di repo ini.
+
+---
+
+> **"Menulis artikel kini semudah klik, kelola, dan publish!"**
