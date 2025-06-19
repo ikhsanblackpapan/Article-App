@@ -17,7 +17,7 @@ type ArticleFormData = {
   title: string;
   content: string;
   categoryId: string;
-  imageUrl: string;
+  imageUrl?: string;
 };
 
 // ==================== COMPONENT ====================
